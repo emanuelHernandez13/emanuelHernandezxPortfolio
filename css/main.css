@@ -399,9 +399,15 @@ footer{
     .nav {
       display:none;
     }
+
+    input {
+      width: 80%;
+      margin: 5px 0 5px 0;
+      padding: 1.1rem 0.1 1.1rem 0;
+  }
   }
 
-  @media screen and (max-width:380px) { 
+  @media screen and (max-width:390px) { 
     .container {
       width: 300px;
     }
